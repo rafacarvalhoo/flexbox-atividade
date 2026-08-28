@@ -1,36 +1,38 @@
 body {
-    background-color: rgb(241, 212, 233);
-    font-family: Arial;
-    margin: 0;
-    padding: 0;
+    background-color: #10102b;
 }
 
 .container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-
-    background-color: rgb(240, 149, 202);
-
     width: 800px;
-    height: 800px;
+    height: 600px;
+    margin: 50px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
 }
 
-.container div {
-    width: 50px;
-    height: 50px;
+.linha {
+    display: flex;
+    gap: 10px;
+}
 
-    background-color: rgb(247, 11, 156);
+.linha div {
+    width: 40px;
+    height: 40px;
 
-    margin: 10px;
-
-    color: rgb(20, 15, 15);
+    background-color: purple;
+    color: white;
 
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
+.centro {
+    justify-content: center;
+}
 
-
+.direita {
+    justify-content: flex-end;
+}
